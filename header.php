@@ -39,7 +39,6 @@
 				</div><!-- .site-branding -->
                 <div class="nav_menu"> </div>
 				
-				<?php endif; ?>
 			</div><!-- .site-header-main -->
 
 			<?php if ( get_header_image() ) : ?>

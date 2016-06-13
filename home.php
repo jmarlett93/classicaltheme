@@ -10,6 +10,21 @@
 get_header();
 ?>
 
+<section>
+    
+    <ul>
+<?php $args = array('posts_per_page' => 3, 'tag' => 'art, architecture', ) ?>
 
+<?php $home_display = get_posts( $args); 
+        foreach ( $home_display as $post) : setup_postdata($post);  ?>
+        
+        <li>
+            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> 
+        <li>
+        
+<?php endforeach;
+    wp_reset_postdata(); ?>
+    </ul>
+</section>  <!-- end .hero section -->
 
 <?php get_footer(); ?>
