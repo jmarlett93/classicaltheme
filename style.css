@@ -7,6 +7,11 @@ Version: 1.1
 template: twentysixteen
 
 */
+ul {
+    list-style: none; }
+    
+img {
+    }
 
 .site-title {
 	font-family: Serif, "Helvetica Neue", sans-serif;
@@ -14,17 +19,14 @@ template: twentysixteen
 	font-size: 1.4375rem;
 	font-weight: 700;
 	line-height: 1.2173913043;
-	margin: 0;
-}
+	margin: 0; }
 
 .site-branding .site-title a {
-	color: #439dab;
-}
+	color: #439dab; }
 
 .site-branding .site-title a:hover,
 .site-branding .site-title a:focus {
-	color: #1e5669;
-}
+	color: #1e5669; }
 
 
 .site-description {
@@ -35,17 +37,26 @@ template: twentysixteen
 	line-height: 1.0769230769;
 	margin: 0.538461538em 0 0;
 	font-family: Serif, sans-serif;
-	font-style: italic;
-}   
+	font-style: italic; }   
 
 .site-header-main {
 	border-width: 2px;
 	border-style: groove;
 	border-color: #d16060;
 	border-radius: 2px;
-	padding: 0.25em 0.5em;
-}
+	padding: 0.25em 0.5em; }
 
 .entry-title {
-	font-family: Serif, "Helvetica Neue", sans-serif;
-}
+	font-family: Serif, "Helvetica Neue", sans-serif; }
+    
+.hero ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+        
+.hero > ul > li {
+    width: 32%;}
+
+.hero > ul > li > a {
+    text-align:center;}
