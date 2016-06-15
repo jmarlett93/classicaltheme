@@ -27,6 +27,7 @@
 
 		<header class="site-header">
 			<div class="site-header-main">
+                    <img src="<?php echo wp_get_attachment_url(15); ?>"/>
 				<div class="site-branding">
 
 					<?php if ( is_front_page() && is_home() ) : ?>

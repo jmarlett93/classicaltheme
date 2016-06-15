@@ -9,9 +9,6 @@ template: twentysixteen
 */
 ul {
     list-style: none; }
-    
-img {
-    }
 
 .site-title {
 	font-family: Serif, "Helvetica Neue", sans-serif;
@@ -44,7 +41,10 @@ img {
 	border-style: groove;
 	border-color: #d16060;
 	border-radius: 2px;
-	padding: 0.25em 0.5em; }
+	padding: 0.25em 0.5em;  }
+    
+.site-header-main > img {
+    background-image:url()}
 
 .entry-title {
 	font-family: Serif, "Helvetica Neue", sans-serif; }
@@ -56,7 +56,11 @@ img {
     justify-content: center; }
         
 .hero > ul > li {
-    width: 32%;}
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: }
 
 .hero > ul > li > a {
     text-align:center;}

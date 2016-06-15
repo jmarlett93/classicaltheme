@@ -7,8 +7,7 @@
 
 **/
 
-get_header();
-?>
+get_header(); ?>
 
 <section class="hero"><!-- start of .hero section -->
     
@@ -29,5 +28,9 @@ get_header();
     wp_reset_postdata(); ?>
     </ul>
 </section>  <!-- end .hero section -->
+
+<section>
+    
+</section> <!-- end of next section -->
 
 <?php get_footer(); ?>
