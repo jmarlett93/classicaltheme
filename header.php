@@ -26,8 +26,7 @@
 <div id="page" class="site">
 
 		<header class="site-header">
-			
-				
+
                 <div class="site-branding">
 
 					<?php if ( is_front_page() && is_home() ) : ?>
@@ -37,11 +36,17 @@
 						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 					<?php endif; ?>
                     
-				</div><!-- .site-branding -->
+				</div><!-- end .site-branding -->
                 
-                <div class="nav_menu"> </div>
+                    <nav class="action">
+                        <ul>
+                            <a href="#"><li class="button">Home</li></a>
+                            <a href="#"><li class="button">about</li></a>
+                            <a href="#"><li class="button">contact</li></a>
+                        </ul>
+                    </nav>
 				
             
-		</header><!-- .site-header -->
+		</header><!-- end .site-header -->
 
 		<div class="site-content">
