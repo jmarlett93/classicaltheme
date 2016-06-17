@@ -4,7 +4,6 @@
 *author: John Marlett
 *created: 6/7/2016
 *child-theme of "twentysixteen"
-
 **/
 
 get_header(); ?>

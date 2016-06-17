@@ -10,20 +10,37 @@ template: twentysixteen
 ul {
     list-style: none; }
 
+.site-header {
+    font-size: 12px;
+    padding: 0.5em 1em ;
+    height: 25em;
+    background-image: url(/my-site/wordpress/wp-content/uploads/2016/06/creation-of-adam-compressed.jpg);
+    background-size: cover; }
+
+.site-header-main {
+	border-width: 2px;
+	border-style: groove;
+	border-color: #d16060;
+	border-radius: 2px;
+	padding: 0.25em 0.5em;
+    background-color: rgba(242, 227, 191, 0.75); }
+    
 .site-title {
 	font-family: Serif, "Helvetica Neue", sans-serif;
-	font-size: 23px;
-	font-size: 1.4375rem;
+	font-size: 2.25rem;
 	font-weight: 700;
 	line-height: 1.2173913043;
-	margin: 0; }
+    text-transform: uppercase ;
+    margin: 0; }
 
 .site-branding .site-title a {
-	color: #439dab; }
+	color: #d16060;
+    color: rgb(209, 96, 96);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.4); }
 
 .site-branding .site-title a:hover,
 .site-branding .site-title a:focus {
-	color: #1e5669; }
+	color: #822A2A; }
 
 
 .site-description {
@@ -36,15 +53,6 @@ ul {
 	font-family: Serif, sans-serif;
 	font-style: italic; }   
 
-.site-header-main {
-	border-width: 2px;
-	border-style: groove;
-	border-color: #d16060;
-	border-radius: 2px;
-	padding: 0.25em 0.5em;  }
-    
-.site-header-main > img {
-    background-image:url()}
 
 .entry-title {
 	font-family: Serif, "Helvetica Neue", sans-serif; }
@@ -52,7 +60,7 @@ ul {
 .hero ul {
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center; }
         
 .hero > ul > li {
