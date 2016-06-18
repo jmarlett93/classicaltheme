@@ -8,8 +8,15 @@
 
 get_header(); ?>
 
-<section class="hero"><!-- start of .hero section -->
+<section class="welcome">
+
+<?php $args = array('tag' => 'welcome', ) ?>
+
+<?php $welcome_msg = get_posts($args); ?>
     
+</section> <!-- end of .welcome section -->
+
+<section class="hero">
     <ul>
 <?php $args = array('posts_per_page' => 3, 'tag' => 'art, architecture', ) ?>
 
@@ -23,8 +30,7 @@ get_header(); ?>
             </a> 
         </li>
         
-<?php endforeach;
-    wp_reset_postdata(); ?>
+        <?php endforeach; wp_reset_postdata(); ?>
     </ul>
 </section>  <!-- end .hero section -->
 
