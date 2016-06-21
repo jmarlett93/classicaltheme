@@ -10,18 +10,17 @@ get_header(); ?>
 
 <section class="welcome">
     
+    
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-<?php $args = array('tag' => 'welcome', ) ?>
+    <?php if  (has_tag('welcome') ): ?>
+    
+        <h1><?php the_title(); ?></h1>     
+        <div> <?php the_content(); ?> </div>
 
-<?php $welcome_msg = get_posts($args); ?>
-
-<?php the_title('<h1>', '</h1>'); ?>
-
-<div> <?php the_content(); ?> </div>
-
+    <?php endif; ?>
 <?php endwhile; ?>
-<?php endif; ?>
+<?php endif; ?><!-- end the welcome post check -->
 
 <?php wp_reset_postdata(); ?>
     
