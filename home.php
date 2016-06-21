@@ -18,9 +18,9 @@ get_header(); ?>
         <h1><?php the_title(); ?></h1>     
         <div> <?php the_content(); ?> </div>
 
-    <?php endif; ?>
+    <?php endif; ?><!-- end the welcome post check -->
 <?php endwhile; ?>
-<?php endif; ?><!-- end the welcome post check -->
+<?php endif; ?><!-- end the while loop post check -->
 
 <?php wp_reset_postdata(); ?>
     
