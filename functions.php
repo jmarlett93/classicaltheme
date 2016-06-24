@@ -13,7 +13,7 @@ function theme_enqueue_styles() {
         get_stylesheet_directory_uri() . '/style.css',
         array( $parent_style )
     );
-}
+}/* Enqueues classical theme as childtheme of twentysixteen*/
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
@@ -21,4 +21,5 @@ function clt_header() {
     do_action('clt_header'); 
 } /* this action hook provides access to the header*/
   
+
  ?> 

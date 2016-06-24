@@ -53,6 +53,7 @@ ul, ol {
 
 
 .action{
+    height: auto;
     margin-left: auto ; }
     
 .action ul {
