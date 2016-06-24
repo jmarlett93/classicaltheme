@@ -27,6 +27,8 @@
 
 		<header class="site-header">
 
+        <?php clt_header(); ?> <!-- custom action hook for header modifications -->
+        
                 <div class="site-branding">
 
 					<?php if ( is_front_page() && is_home() ) : ?>

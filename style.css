@@ -15,10 +15,15 @@ ul, ol {
     padding: 0.5em 1em ;
     height: 25em;
     background-image: url(/my-site/wordpress/wp-content/uploads/2016/06/creation-of-adam-compressed.jpg);
-    background-size: cover; }
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
 
 .site-branding {
-    width: auto; }
+    width: auto;
+    margin-top: 0; }
     
 .site-branding .site-title {
 	font-family: Serif, "Helvetica Neue", sans-serif;
@@ -44,16 +49,12 @@ ul, ol {
 	font-weight: 700;
     color:  #105F22;
     text-shadow: 1px 1px 1px rgb(6, 14, 8);
-    width: auto;}
+    width: auto; }
 
-.site-header-main {
-	border-width: 2px;
-	border-style: groove;
-	border-color: #d16060;
-	border-radius: 2px;
-	padding: 0.25em 0.5em;
-    background-color: rgba(242, 227, 191, 0.75); }
 
+.action{
+    margin-left: auto ; }
+    
 .action ul {
         display:-webkit-flex;
         display: flex;

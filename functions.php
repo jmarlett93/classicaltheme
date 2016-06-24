@@ -1,7 +1,7 @@
 <?php
 
 /*
-this is the functions.php for the childtheme Classical theme
+Functions.php for the childtheme Classical theme
 */
 
 function theme_enqueue_styles() {
@@ -14,22 +14,11 @@ function theme_enqueue_styles() {
         array( $parent_style )
     );
 }
+
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
-add_action( 'wp_footer', 'pc_custom_footer' );
- 
-function pc_custom_footer() {
-	echo "<div style='text-align:center;'><p>This is my custom footer message!</p></div>";
-}
-
-/*
- 
- function custom_dropdown_menu() {
- 	echo "<div style='text-align:cenbter; '><p> This is a custom header message</p> </div>";
- }
-
-add_action('wp_head', 'custom_dropdown_menu' );
- 
- */
- 
+function clt_header() {
+    do_action('clt_header'); 
+} /* this action hook provides access to the header*/
+  
  ?> 
