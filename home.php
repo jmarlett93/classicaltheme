@@ -43,7 +43,7 @@ get_header(); ?>
     </ul>
 </section>  <!-- end .hero section -->
 
-<section>
+<section class ="baloney">
     
 </section> <!-- end of next section -->
 

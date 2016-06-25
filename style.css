@@ -19,7 +19,10 @@ ul, ol {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    -moz-box-shadow: inset 0 0 20px    rgba(255,255,255, 1);
+	-webkit-box-shadow: inset 0 0 20px rgba(255,255,255, 1);
+	box-shadow: inset 0 0 20px  rgba(255,255,255, 1); }
 
 .site-branding {
     width: auto;
@@ -117,6 +120,7 @@ padding: 0.5% 1%;
 margin-bottom: 2.5%;
 background-color:#FFF;
 background-color: rgba(255, 255, 255, 0.9);
+padding: 1% 0;
 }
 
 .hero ul {
@@ -133,5 +137,3 @@ background-color: rgba(255, 255, 255, 0.9);
 
 .hero > ul > li > a {
     text-align:center; }
-
-
