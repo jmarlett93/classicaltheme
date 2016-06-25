@@ -88,14 +88,37 @@ ul, ol {
 .action > ul > a > li {
     background-color: #AC3B0B;
     color: #180700; }
-    .action > ul > a > li:hover {
+    
+.action > ul > a > li:hover {
         background-color: #D36F45 ;
         color: #FCE6D3;
     } 
+/*end of header styling */
+
+.site-content{
+background-image: url(/my-site/wordpress/wp-content/uploads/2016/06/Leonardobackground1.jpg);
+}
+
+.welcome { 
+margin-top: 2.5%;
+margin-bottom: 2.5%;
+background-color:#FFF;
+background-color: rgba(255, 255, 255, 0.9);
+padding: 0.5% 1%;
+}
+
+.welcome h1 {
+    text-align: center; }
 
 .entry-title {
 	font-family: Serif, "Helvetica Neue", sans-serif; }
-    
+
+.hero {
+margin-bottom: 2.5%;
+background-color:#FFF;
+background-color: rgba(255, 255, 255, 0.9);
+}
+
 .hero ul {
     margin: 0;
     display: flex;
@@ -109,4 +132,6 @@ ul, ol {
     justify-content: center; }
 
 .hero > ul > li > a {
-    text-align:center;}
+    text-align:center; }
+
+

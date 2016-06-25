@@ -15,7 +15,7 @@ get_header(); ?>
     <?php if  (has_tag('welcome') ): ?>
     
         <h1><?php the_title(); ?></h1>     
-        <div> <?php the_content(); ?> </div>
+         <?php the_content(); ?>
 
     <?php endif; ?><!-- end the welcome post check -->
 <?php endwhile; ?>
