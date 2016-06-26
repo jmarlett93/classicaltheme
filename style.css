@@ -146,7 +146,7 @@ padding: 1% 0; }
     transition: all 500ms ease-out; }
     .hero > ul > li:hover {
     color: #FFF;
-    border: 0.2em solid #8AA5B1;
+    border: 0.2em solid #8AA5B1 ;
     border-radius: 0.25em;
     background-color: #8AA5B1; }
 
