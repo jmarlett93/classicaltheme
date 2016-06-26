@@ -10,6 +10,9 @@ template: twentysixteen
 ul, ol {
     list-style: none; }
 
+a {
+    color: #000;}
+
 .site-header {
     font-size: 12px;
     padding: 0.5em 1em ;
@@ -91,8 +94,7 @@ ul, ol {
 .action > ul > a > li {
     background-color: #AC3B0B;
     color: #180700; }
-    
-.action > ul > a > li:hover {
+    .action > ul > a > li:hover {
         background-color: #D36F45 ;
         color: #FCE6D3;
     } 
@@ -120,8 +122,10 @@ padding: 0.5% 1%;
 margin-bottom: 2.5%;
 background-color:#FFF;
 background-color: rgba(255, 255, 255, 0.9);
-padding: 1% 0;
-}
+padding: 1% 0; }
+
+.hero h1 {
+    text-align: center; }
 
 .hero ul {
     margin: 0;
@@ -130,10 +134,36 @@ padding: 1% 0;
     justify-content: center; }
         
 .hero > ul > li {
+    text-align:center;
     width: 32%;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    margin: 1% 0.5%;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out; }
+    .hero > ul > li:hover {
+    color: #FFF;
+    border: 0.2em solid #8AA5B1;
+    border-radius: 0.25em;
+    background-color: #8AA5B1; }
 
 .hero > ul > li > a {
-    text-align:center; }
+    width: 100%;
+    font-size: 1.25em ;
+    height: 100%;
+    padding: 1% 1%;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    text-align: center; }
+    .hero > ul > li > a:hover {
+        color: #FFF; }
+
+.site-footer {
+    height: 15%;
+    background-color: #180700;
+}

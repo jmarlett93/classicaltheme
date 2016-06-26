@@ -13,7 +13,7 @@
 		</div><!-- .site-content -->
 
 		<footer class="site-footer">
-
+					
 		</footer><!-- .site-footer -->
 </div><!-- .site -->
 

@@ -26,6 +26,9 @@ get_header(); ?>
 </section> <!-- end of .welcome section -->
 
 <section class="hero">
+
+    <h1>Recent in Art & Architecture</h1>
+    
     <ul>
 <?php $args = array('posts_per_page' => 3, 'tag' => 'art, architecture', ) ?>
 
@@ -34,11 +37,12 @@ get_header(); ?>
         
         <li>
             <a href="<?php the_permalink(); ?>">
+            
                 <?php the_title(); ?> 
                 <div><?php the_post_thumbnail(); ?> </div> 
+            
             </a> 
         </li>
-        
         <?php endforeach; wp_reset_postdata(); ?>
     </ul>
 </section>  <!-- end .hero section -->
