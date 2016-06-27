@@ -27,10 +27,32 @@ get_header(); ?>
 
 <section class="hero">
 
-    <h1>Recent in Art & Architecture</h1>
+    <h1>Recent in Art</h1>
     
     <ul>
-<?php $args = array('posts_per_page' => 3, 'tag' => 'art, architecture', ) ?>
+<?php $args = array('posts_per_page' => 3, 'tag' => 'art' , ) ?>
+
+<?php $home_display = get_posts( $args); ?>
+       <?php foreach ( $home_display as $post) : setup_postdata($post);  ?>
+        
+        <li>
+            <a href="<?php the_permalink(); ?>">
+            
+                <?php the_title(); ?> 
+                <div><?php the_post_thumbnail(); ?> </div> 
+            
+            </a> 
+        </li>
+        <?php endforeach; wp_reset_postdata(); ?>
+    </ul>
+</section>  <!-- end .hero section -->
+
+<section class="hero">
+
+    <h1>Recent in Architecture</h1>
+    
+    <ul>
+<?php $args = array('posts_per_page' => 3, 'tag' => 'architecture' , ) ?>
 
 <?php $home_display = get_posts( $args); ?>
        <?php foreach ( $home_display as $post) : setup_postdata($post);  ?>
