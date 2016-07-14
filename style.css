@@ -17,7 +17,7 @@ a {
     font-size: 12px;
     padding: 0.5em 1em ;
     height: 25em;
-    background-image: url(/my-site/wordpress/wp-content/uploads/2016/06/creation-of-adam-compressed.jpg);
+    background-image: url(./wp-content/uploads/2016/07/creation-of-adam-compressed.jpg);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -101,7 +101,7 @@ a {
 /*end of header styling */
 
 .site-content{
-background-image: url(/my-site/wordpress/wp-content/uploads/2016/06/Leonardobackground1.jpg);
+background-image: url(./wp-content/uploads/2016/07/Leonardobackground1.jpg);
 }
 
 .welcome { 
